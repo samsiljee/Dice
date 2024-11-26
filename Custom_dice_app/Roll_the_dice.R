@@ -8,21 +8,33 @@ library(shiny)
 
 # Set the UI
 ui <- fluidPage(
-  
-  # Application title
-  titlePanel("Custom x-wing dice"),
-  
-  # Button to roll the dice
-  actionButton("roll", "Roll the dice"),
-  
-  # Display the results
-  h3("Results:"),
-  textOutput("results"),
-  tags$style(type="text/css", "#results {white-space: pre-wrap;}"),
-  hr(),
-  
-  # Show possible dice outcomes
-  tableOutput("dice")
+  tabsetPanel(
+    tabPanel(
+      "Deep Sea Adventure Boost",
+      # Button to roll the dice
+      actionButton("ds_roll", "Roll the dice"),
+      
+      # Display the results
+      h3("Results:"),
+      textOutput("ds_results"),
+      tags$style(type="text/css", "#results {white-space: pre-wrap;}")
+    ),
+    tabPanel(
+      "Custom x-wing dice",
+      
+      # Button to roll the dice
+      actionButton("roll", "Roll the dice"),
+      
+      # Display the results
+      h3("Results:"),
+      textOutput("results"),
+      tags$style(type="text/css", "#results {white-space: pre-wrap;}"),
+      hr(),
+      
+      # Show possible dice outcomes
+      tableOutput("dice")
+    )
+  )
 )
 
 # Make the server
@@ -52,9 +64,29 @@ server <- function(input, output) {
     results(paste(sort(roll_results), collapse = "\n"))
   })
   
+  # Initialise blank vector for ds results
+  ds_results <- reactiveVal("Click roll the dice")
+  
+  # Event to roll the dice
+  observeEvent(input$ds_roll, {
+    # Update the results
+    ds_results(
+      paste(
+        sample(c("One", "Two"), 1),
+        sample(c("One", "Three"), 1),
+        sample(c("Zero", "Three"), 1),
+        collapse = "\n"
+      )
+    )
+  })
+  
   # Render results
   output$results <- renderText(
     results()
+  )
+  
+  output$ds_results <- renderText(
+    ds_results()
   )
   
   # Render table of dice
