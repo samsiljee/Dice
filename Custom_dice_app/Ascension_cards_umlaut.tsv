@@ -1,14 +1,14 @@
 Rarity	Name	English name	Faction	Type	Cost	Honor	Set	Effect	Energize	Fate	Trophy
 3	Himmlischer Einblick	Temporal Eye	Enlightened	Construct	3	1	RoV	"When this enters play, draw a card.  You may banish this and another Temporal Eye you control to take an additional turn."			
-1	Steintafel des Traumenden	Tablet of the Dreamer	Enlightened	Construct	5	3	RoV		"Energize (4): Once this turn, acquire defeat any card in the center row without paying its cost."		
-3	Klosterlicher Lehrmeister	Monastic Tutor	Enlightened	Hero	1	1	RoV	Acquire a Mystic or Heavy Infantry without paying its cost.	Energize (1): Put the acquired card in your hand.		
-3	Realitats-Skulpteur	Reality Sculptor	Enlightened	Hero	3	1	RoV	Copy the effect of a Hero played this turn with cost (3 Rune) or less.			
+1	Steintafel des Träumenden	Tablet of the Dreamer	Enlightened	Construct	5	3	RoV		"Energize (4): Once this turn, acquire defeat any card in the center row without paying its cost."		
+3	Klösterlicher Lehrmeister	Monastic Tutor	Enlightened	Hero	1	1	RoV	Acquire a Mystic or Heavy Infantry without paying its cost.	Energize (1): Put the acquired card in your hand.		
+3	Realitäts-Skulpteur	Reality Sculptor	Enlightened	Hero	3	1	RoV	Copy the effect of a Hero played this turn with cost (3 Rune) or less.			
 2	Rechtschaffener Templer	Righteous Templar	Enlightened	Hero	4	2	RoV	Defeat a Monster that costs (4 Power) or less without paying its cost.	"Energize (3): Instead, defeat any Monster without paying its cost."		
 2	Wahrheitssuchender	Truth Seeker	Enlightened	Hero	4	2	RoV	"Draw a card. You may banish a card in the center row. If the next card to enter the center row is a Treasure, acquire it."			
-2	Monch des lidlosen Auges	Monk of the Lidless Eye	Enlightened	Hero	5	2	RoV	Draw two cards.		"FATE: When this enters the center row, for each Treasure under this, each player draws a card."	
+2	Mönch des lidlosen Auges	Monk of the Lidless Eye	Enlightened	Hero	5	2	RoV	Draw two cards.		"FATE: When this enters the center row, for each Treasure under this, each player draws a card."	
 1	"Ulu, Askara-Prinz"	"Ulu, Askara Prince"	Enlightened	Hero	6	3	RoV	Copy the effect of a Hero played this turn. This effect cannot be copied.	Energize (2): Copy the chosen effect an additional time.		
 1	"Oziah, Richter von Logos"	"Oziah, Judge of Logos"	Enlightened	Hero	9	5	RoV	"While this is in the center row, you may acquire this without paying its cost if you have gained (7 Energy) or more this turn.  Defeat all Monsters in the center row without paying their costs."			
-2	"Ogo, die Damonenfalle"	Ogo Demontrap	Lifebound	Construct	4	2	RoV	"Once per turn, gain (1 Power)."	"Energize (4): Once this turn, gain (3 Honor)."		
+2	"Ogo, die Dämonenfalle"	Ogo Demontrap	Lifebound	Construct	4	2	RoV	"Once per turn, gain (1 Power)."	"Energize (4): Once this turn, gain (3 Honor)."		
 2	Wildruf-Stab	Wildcall Staff	Lifebound	Construct	5	3	RoV	"Once per turn, you pay (2 Runes) less to acquire a card with Treasure under it."			
 3	Leotan's Vertrauter	Leotan's Familiar	Lifebound	Hero	1	1	RoV	Gain (1 Rune).	Energize (1): Gain (2 Honor).		
 3	Leuchtfeuerschamane	Beacon Shaman	Lifebound	Hero	2	1	RoV	"Reveal the top card of your deck and put it in your hand. If it is a Treasure, gain (3 Honor)."			
@@ -16,7 +16,7 @@ Rarity	Name	English name	Faction	Type	Cost	Honor	Set	Effect	Energize	Fate	Trophy
 2	Muse des Lebensbundes	Lifebound Muse	Lifebound	Hero	4	3	RoV	Acquire a Hero with cost (4 Runes) or less without paying its cost.	"Energize (2): Instead, acquire any Hero without paying its cost."		
 2	Steinpilz-Druide	Loamspeaker Druid	Lifebound	Hero	5	2	RoV	Gain (3 Runes).	"FATE: When this enters the center row, for each Treasure under this, add (10 Honor) to the (Honor) pool."		
 1	"Leotan, Sternenrufer"	Starcaller Leotan	Lifebound	Hero	6	3	RoV	Gain (4 Honor).	Energize: Gain an additional (1 Honor) for each (Energy) you have gained this turn.		
-1	"Oras, der Erloser"	"Oras, the Redeemer"	Lifebound	Hero	7	4	RoV	"Gain (4 Runes).  Each time you acquire a Hero from the center row this turn, gain (Honor) equal to its (Honor) value."			
+1	"Oras, der Erlöser"	"Oras, the Redeemer"	Lifebound	Hero	7	4	RoV	"Gain (4 Runes).  Each time you acquire a Hero from the center row this turn, gain (Honor) equal to its (Honor) value."			
 2	Prototyp CH32	Prototype CH32	Mechana	Construct	3	3	RoV		"Energize (1): Once this turn, when you acquire a Mechana Construct, you may put it directly into play."		
 2	Prognose-Monokel	Foresight Monacle	Mechana	Construct	4	4	RoV		"Energize (4): Once this turn, gain (1 Rune) for each Mechana Construct you control."		
 2	Portabellum	Portabillet	Mechana	Construct	5	5	RoV	"Once per turn, when you play a Mechana Construct (including this one), draw a card."	"Energize (5): Once this turn, draw a card."		
@@ -24,13 +24,13 @@ Rarity	Name	English name	Faction	Type	Cost	Honor	Set	Effect	Energize	Fate	Trophy
 1	Omnikron	Omnicron	Mechana	Construct	7	7	RoV	"Once per turn, gain (1 Energy) for each Mechana Construct you control."		"Fate: When this enters the center row, for each Treasure under this, add a card to the center row."	
 1	Reaktor-Schrein	Reactor Shrine	Mechana	Construct	8	8	RoV		"Energize (2): Once this turn, gain (1 Honor) for each Mechana Construct you control."		
 3	Himmelsraketendrone	Skyrocket Drone	Mechana	Hero	1	1	RoV	Gain (1 Rune) and an additional (1 Rune) if you control a Construct.			
-3	Magnet-Monch	Magnet Monk	Mechana	Hero	3	2	RoV	Gain (2 Power).  Gain (1 Energy) for each faction among Constructs you control.			
+3	Magnet-Mönch	Magnet Monk	Mechana	Hero	3	2	RoV	Gain (2 Power).  Gain (1 Energy) for each faction among Constructs you control.			
 2	Kognitionskurier	Cognition Courier	Mechana	Hero	5	3	RoV	Gain (2 Runes).	Energize: You pay (1 Rune) less the next time you acquire a Construct this turn for each (Energy) you have gained this turn.		
 3	Schlangensirene	Serpent Siren	Monster	Monster	2	1	RoV	Reward: Gain (1 Honor).			Trophy: You may banish this to gain (1 Energy).
 3	Lagunentroll	Lagoon Troll	Monster	Monster	3	2	RoV	Reward: Gain (2 Honor). Draw a card.			
-3	Tobendes Barwesen	Raging Ursine	Monster	Monster	3	3	RoV	Reward: Gain (3 Honor).	Energize (2): Gain (2 Runes).		
+3	Tobendes Bärwesen	Raging Ursine	Monster	Monster	3	3	RoV	Reward: Gain (3 Honor).	Energize (2): Gain (2 Runes).		
 4	Ebenbild des Feuersturms	Firestorm Effigy	Monster	Monster	4	3	RoV	Reward: Gain (3 Honor). You may banish a card in your hand or discard pile.	Energize (1): You may banish an additional card in your hand or discard pile.		
-4	Gewolbe-Sphinx	Vault Sphinx	Monster	Monster	4	2	RoV	Reward: Gain (2 Honor).			Trophy: You may banish this to gain (2 Energy).
+4	Gewölbe-Sphinx	Vault Sphinx	Monster	Monster	4	2	RoV	Reward: Gain (2 Honor).			Trophy: You may banish this to gain (2 Energy).
 3	Abartiger Unhold	Deviant Fiend	Monster	Monster	5	3	RoV	Reward: Gain (3 Honor).	Energize: Gain an additional (Honor) for each (Energy) you have gained this turn.		
 3	Beissende Witwe	Mordant Widow	Monster	Monster	5	4	RoV	"Reward: Gain (4 Honor). For each opponent, you choose and destroy a Construct they control."			
 1	Proteische Meerschnecke	Protean Sea Slug	Monster	Monster	6	5	RoV	Reward: Gain (5 Honor). Each opponent destroys all Constructs they control.			
@@ -38,10 +38,10 @@ Rarity	Name	English name	Faction	Type	Cost	Honor	Set	Effect	Energize	Fate	Trophy
 1	"Terrus, Haruspex der Zwietracht"	"Terrus, Paragon of Strife"	Monster	Monster	7	5	RoV	Reward: Gain (5 Honor).  Each opponent discards a random card from their hand. You may choose a card discarded this way and put it in your hand.			
 1	Bote der Verdammnis	Herald of Doom	Monster	Monster	8	6	RoV	Reward: Gain (6 Honor). Acquire or defeat a card in the center row without paying its cost.	"Energize (7): Instead, acquire or defeat all cards in the center row without paying their costs."		
 2	Schriften des Erabus	Tome of Erabus	Void	Construct	4	2	RoV	"Once per turn, gain (1 Energy)."			
-2	Leerennahrer	Voidfeeder	Void	Construct	5	3	RoV	"Once per turn, gain (1 Power)."	"Energize (2): Once this turn, you may banish a card in your hand or discard pile."		
-3	Geisterhandler	Spirit Merchant	Void	Hero	1	1	RoV	Gain (1 Energy).  You may banish a card in your hand or discard pile.		"Fate: When this enters the center row, for each Treasure under this, each player may banish a card in their hand or discard pile.  "	
-3	Schatzjager	Treasure Hunter	Void	Hero	2	1	RoV	Gain (2 Power).  You pay (1 Power) less the next time you defeat a Monster with Treasure under it this turn.			
+2	Leerennährer	Voidfeeder	Void	Construct	5	3	RoV	"Once per turn, gain (1 Power)."	"Energize (2): Once this turn, you may banish a card in your hand or discard pile."		
+3	Geisterhändler	Spirit Merchant	Void	Hero	1	1	RoV	Gain (1 Energy).  You may banish a card in your hand or discard pile.		"Fate: When this enters the center row, for each Treasure under this, each player may banish a card in their hand or discard pile.  "	
+3	Schatzjäger	Treasure Hunter	Void	Hero	2	1	RoV	Gain (2 Power).  You pay (1 Power) less the next time you defeat a Monster with Treasure under it this turn.			
 3	Dunkelwanderer	Darkwalker	Void	Hero	3	2	RoV	Gain (2 Power).	Energize (1): You may banish a card in your hand or discard pile.		
 2	Champion der Schwarzen Wache	Blackwatch Vanquisher	Void	Hero	4	2	RoV	Gain (2 Power).	Energize (3): Gain an additional (2 Power).		
-2	Nyxischer Geisterbeschworer	Nyxian Spiritcaster	Void	Hero	6	3	RoV	Gain (3 Energy).  Draw a card.			
-1	"Illya, Damonenkind"	Illiya the Demonborn	Void	Hero	7	4	RoV	Gain (4 Power).	Energize: Gain an additional (1 Power) for each (Energy) you have gained this turn.		
+2	Nyxischer Geisterbeschwörer	Nyxian Spiritcaster	Void	Hero	6	3	RoV	Gain (3 Energy).  Draw a card.			
+1	"Illya, Dämonenkind"	Illiya the Demonborn	Void	Hero	7	4	RoV	Gain (4 Power).	Energize: Gain an additional (1 Power) for each (Energy) you have gained this turn.		
