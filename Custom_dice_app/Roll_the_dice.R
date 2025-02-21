@@ -135,7 +135,6 @@ server <- function(input, output, session) {
   fate <- reactive({
     if(!is.na(pull(filter(ascension_cards, Name == input$name), Fate))) {
       paste0(
-        "Fate: ",
         filter(ascension_cards, Name == input$name) %>% pull(Fate)
       ) 
     }
@@ -144,7 +143,6 @@ server <- function(input, output, session) {
   trophy <- reactive({
     if(!is.na(pull(filter(ascension_cards, Name == input$name), Trophy))) {
       paste0(
-        "Trophy: ",
         filter(ascension_cards, Name == input$name) %>% pull(Trophy)
       )
     }
