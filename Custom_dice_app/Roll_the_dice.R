@@ -73,6 +73,23 @@ ui <- fluidPage(
 
       # Show all cards in table format
       DTOutput("ascension_cards")
+    ),
+    tabPanel(
+      "Warcraft extra harvest dice",
+      # Button to roll the dice
+      actionButton("harvest_roll", "Roll the dice"),
+      
+      # Button to select how many dice to roll
+      numericInput(
+        "harvest_count",
+        "Number of dice to roll",
+        value = 1,
+        step = 1),
+      
+      # Display the results
+      h3("Results:"),
+      textOutput("harvest_results"),
+      tags$style(type = "text/css", "#results {white-space: pre-wrap;}")
     )
   )
 )
@@ -82,7 +99,10 @@ server <- function(input, output, session) {
   # Load the data
   dice <- read.delim("Dice.tsv", header = TRUE)
   ascension_cards <- read.delim("Ascension_cards.tsv", header = TRUE)
+  harvest_die <- c(rep(1, 3), rep(2, 2), "3(x)")
 
+  ## X-wing dice ----
+  
   # Initialise blank vector for results
   results <- reactiveVal("Click roll the dice")
 
@@ -103,6 +123,8 @@ server <- function(input, output, session) {
     # Update the results
     results(paste(sort(roll_results), collapse = "\n"))
   })
+  
+  ## Deep sea adventure boost ----
 
   # Initialise blank vector for ds results
   ds_results <- reactiveVal("Click roll the dice")
@@ -119,6 +141,8 @@ server <- function(input, output, session) {
       )
     )
   })
+  
+  ## Ascension cards ----
   
   # Results for ascension cards
   effect <- reactive({
@@ -208,6 +232,33 @@ server <- function(input, output, session) {
   )
   output$ascension_cards <- renderDT(
     ascension_cards
+  )
+  
+  ## Warcraft harvest dice ----
+  # Initialise blank vector for ds results
+  harvest_results <- reactiveVal("Click roll the dice")
+  
+  # Event to roll the dice
+  observeEvent(input$harvest_roll, {
+    roll_results <- vector()
+    
+    # Iterate for number of dice selected
+    for( i in 1:input$harvest_count) {
+      roll_results <- c(
+        roll_results,
+        sample(harvest_die, 1)
+      )
+    }
+    
+    # Update the results
+    harvest_results(
+      roll_results
+    )
+  })
+  
+  # Render results
+  output$harvest_results <- renderText(
+    harvest_results()
   )
 }
 
